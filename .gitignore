@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+node_modules/
+
+# market data and trained models are large and reproducible
+data/raw/*
+data/processed/*
+data/orderbook/
+data/signals/
+data/sr_analyzer/
+models/*
+reports/*
+!**/.gitkeep

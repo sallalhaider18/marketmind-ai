@@ -1,0 +1,14 @@
+# Tested with Python 3.11 and 3.13 (requires Python 3.11 or newer)
+fastapi==0.159.1
+uvicorn[standard]==0.54.0
+httpx==0.28.1
+websockets==17.3
+pandas==3.0.5
+numpy==2.4.6
+pyarrow==26.0.0
+pydantic-settings==2.16.1
+scikit-learn==1.9.1
+# Deep learning (CPU build on Windows, about 125 MB)
+torch==2.14.1
+pytest==9.1.1
+pytest-asyncio==1.4.0
